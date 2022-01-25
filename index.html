@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+
+    <body>
+        <!-- Headings (H1 is the largest H6 is the smallest)-->
+        <h1>This is a header</h1>
+        <h2>This is a header</h2>
+        <h3>This is a header</h3>
+        <h4>This is a header</h4>
+        <h5>This is a header</h5>
+        <h6>This is a header</h6>
+
+        <!-- Paragraphs -->
+        <p>This is a paragraph</p>
+        <p1>This is another paragraph</p1>
+
+        <!-- Ordered List (automatically indented)-->
+        <br><p>This is an ordered list</p>
+        <ol>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+        </ol>
+
+        <!-- Unordered List -->
+        <ul>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+        </ul>
+
+        <!-- Tables -->
+        <!-- tr = table row -->
+        <!-- th = table header-->
+        <!-- -->
+        <table>
+            <thead></thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Jack Smith</td>
+                <td>123456</td>
+                <td>Hello@hello.ca</td>
+            </tr>
+            <tr>
+                <td>Jack Smith</td>
+                <td>123456</td>
+                <td>Hello@hello.ca</td>
+            </tr>
+            <tr>
+                <td>Jack Smith</td>
+                <td>123456</td>
+                <td>Hello@hello.ca</td>
+            </tr>
+        </table>
+
+        <form action="POST">
+            <div>
+                <label for="name">Name</label>
+                <!-- Creates a input field for user to type in -->
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" phone="phone" id="phone">
+            </div>
+            <div>
+                <label for="radioY">Yes/No</label>
+                <!-- Lets user pick between bubbles-->
+                <input type="radio" name="radio" id="radioY">
+                <input type="radio" name="radio" id="radioN">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <!-- Does not let user see their password as they type-->
+                <input type="password" name="password" id="password">
+            </div>
+
+            <!-- Drop down menu -->
+            <div>
+                <h5>Fav color?</h5>
+                <select name="favourite colour">
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+
+            <!-- Text area that user can manipulate size and insert text-->
+            <div>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </body>
+</html>
